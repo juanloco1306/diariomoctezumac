@@ -38,7 +38,7 @@ export const RichTextComponents = {
         h4: ({ children }: any) => (
             <h4 className="text-2xl py-10 font-bold">{children}</h4>
         ),
-        p: ({ children }: any) => (
+        normal: ({ children }: any) => (
             <p className="text-base py-8 font-bold">{children}</p>
         ),
 
